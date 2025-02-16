@@ -1,6 +1,6 @@
 
 
-from src import add, sub  # Import functions
+from src import add, sub, multiply  
 
 
 
@@ -17,4 +17,9 @@ def test_sub():
     assert sub(6,1)==5   
     assert sub(17,10)==7   
     assert sub(18,11)==7   
-    assert sub(19,12)==7   
+    assert sub(19,12)==7  
+def test_mul():
+    assert sub(2,4)==8     
+    assert sub(4,4)==16     
+    assert sub(2,9)==18     
+    assert sub(3,11)!=22    
