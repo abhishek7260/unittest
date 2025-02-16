@@ -19,7 +19,7 @@ def test_sub():
     assert sub(18,11)==7   
     assert sub(19,12)==7  
 def test_mul():
-    assert sub(2,4)==8     
-    assert sub(4,4)==16     
-    assert sub(2,9)==18     
-    assert sub(3,11)!=22    
+    assert multiply(2,4)==8     
+    assert multiply(4,4)==16     
+    assert multiply(2,9)==18     
+    assert multiply(3,11)!=22    
