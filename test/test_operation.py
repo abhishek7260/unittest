@@ -15,4 +15,6 @@ def test_sub():
     assert sub(2,0)==2   
     assert sub(4,1)==3   
     assert sub(6,1)==5   
-    assert sub(8,1)==7   
+    assert sub(17,10)==7   
+    assert sub(18,11)==7   
+    assert sub(19,12)==7   
